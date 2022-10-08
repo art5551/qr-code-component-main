@@ -1,0 +1,32 @@
+body{
+  background-color: skyblue;
+}
+
+.container{
+  /* Best guess is top margin roughly 100 px from top */
+  margin-top: 100px;
+  width: 300px;
+  height: 500px;
+  /* This is KP trick to keep content centered */
+  /* Note only works on left/right,not top/bottom */
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  /* Will round the corners of the div */
+  border-radius: 15px;
+}
+
+.qr-image{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  height: 300px;
+  width: 280px;
+  border-radius: 15px;
+}
+
+.qr-image img{
+  height: 100%;
+  width: 100%;
+  border-radius: 15px;
+}
