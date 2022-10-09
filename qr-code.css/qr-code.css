@@ -1,32 +1,18 @@
 body{
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
   background-color: skyblue;
 }
 
-.container{
-  /* Best guess is top margin roughly 100 px from top */
-  margin-top: 100px;
-  width: 300px;
-  height: 500px;
-  /* This is KP trick to keep content centered */
-  /* Note only works on left/right,not top/bottom */
-  margin-left: auto;
-  margin-right: auto;
+.card-container{
+  max-width: 300px;
+  padding: 16px;
   background-color: white;
-  /* Will round the corners of the div */
-  border-radius: 15px;
-}
-
-.qr-image{
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 10px;
-  height: 300px;
-  width: 280px;
   border-radius: 15px;
 }
 
 .qr-image img{
-  height: 100%;
   width: 100%;
   border-radius: 15px;
 }
